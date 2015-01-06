@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            auto="False"
+            id="account_billings"
+            model="account.billing"
+            name="account.billing"
+            rml="account_billing_report/report/account_print_billing.rml"
+            string="Billing"
+            attachment="(object.state in ('billed')) and ('INV'+(object.number or '').replace('/','')+'.pdf')"
+            attachment_use="False"
+            usage="default"
+            />
+    </data>
+</openerp>

@@ -1,0 +1,100 @@
+# Chinese (Simplified) translation for openobject-addons
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-06-14 22:29+0000\n"
+"PO-Revision-Date: 2014-03-06 08:48+0000\n"
+"Last-Translator: Jerry Hao <erp_hao@163.com>\n"
+"Language-Team: Chinese (Simplified) <HowGO>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2014-03-07 07:23+0000\n"
+"X-Generator: Launchpad (build 16948)\n"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Total:"
+msgstr "合计:"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Billing NO:"
+msgstr "月结单:"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Customer:"
+msgstr "客户:"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Tel. :"
+msgstr "电话 :"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Fax :"
+msgstr "传真 :"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Billing NO"
+msgstr "月结单"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Source"
+msgstr "源单据"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Customer Code"
+msgstr "客户编码"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Invoice NO"
+msgstr "发票单号"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Customer Reference"
+msgstr "客户单号"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Date Due"
+msgstr "发票日期"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Amount"
+msgstr "金额"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Billing Date"
+msgstr "账单日期"
+
+#. module: account_billing
+#: report:account.billing:0
+msgid "Narration:"
+msgstr "备注:"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing_report.py:0
+#, python-format
+msgid ""
+msgstr ""
+
+#. module: account_billing
+#: model:ir.actions.report.xml,name:account_billing.account_billings
+msgid "Billing"
+msgstr "月结单"
+

@@ -1,0 +1,553 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+# * account_billing
+# 
+# Translators:
+# Jerry Hao <erp_hao@163.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: dddd\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-18 12:26+0000\n"
+"PO-Revision-Date: 2014-12-18 13:52+0000\n"
+"Last-Translator: Jerry Hao <erp_hao@163.com>\n"
+"Language-Team: Chinese (China) (HowGO)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Are you sure to cancel this record ?"
+msgstr "是否确实要取消此记录？"
+
+#. module: account_billing
+#: model:ir.actions.act_window,help:account_billing.action_billing_receipt
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to register a new billing.\n"
+"              </p><p>\n"
+"                Enter the customer the invoices expect to be paid by the customer for this \n"
+"                bill period. By default the pending invoices will be listed, automatically.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                点击创建一个新的账单。\n"
+"              </p><p>\n"
+"                输入的客户发票是这个客户账单日期对应期间的需要 \n"
+"                付款。默认情况下客户和账单日期输入后，对应的发票会自动列出来。\n"
+"              </p>\n"
+"            "
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:299
+#, python-format
+msgid "Write-Off"
+msgstr "注销"
+
+#. module: account_billing
+#: help:account.billing,state:0
+msgid " * The 'Draft' status is used when a user is encoding a new and unconfirmed billing.                         \n"
+"* The 'Billed' status is used when user create billing,a billing number is generated                         \n"
+"* The 'Cancelled' status is used when user cancel billing."
+msgstr "* '草稿' 状态用于新创建的、没有确定的账单。\n"
+"* '已支付' 状态用于用户创建完的账单的数量已经支付 \n"
+"* '已取消' 状态用于用户取消账单后。"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Group By..."
+msgstr "分组"
+
+#. module: account_billing
+#: field:account.billing,payment_rate_currency_id:0
+msgid "Payment Rate Currency"
+msgstr "付款币种"
+
+#. module: account_billing
+#: field:account.billing,message_unread:0
+msgid "Unread Messages"
+msgstr "未读的邮件"
+
+#. module: account_billing
+#: field:account.billing,company_id:0 field:account.billing.line,company_id:0
+msgid "Company"
+msgstr "公司"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Set to Draft"
+msgstr "设置为草稿"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Allocation"
+msgstr "分配"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Validate"
+msgstr "确定"
+
+#. module: account_billing
+#: field:account.billing,account_id:0 field:account.billing.line,account_id:0
+msgid "Account"
+msgstr "科目"
+
+#. module: account_billing
+#: field:account.billing.line,reconcile:0
+msgid "Full Reconcile"
+msgstr "全面协调"
+
+#. module: account_billing
+#: field:account.billing,date_due:0 field:account.billing.line,date_due:0
+msgid "Due Date"
+msgstr "截止日期"
+
+#. module: account_billing
+#: field:account.billing,narration:0
+msgid "Notes"
+msgstr "备注"
+
+#. module: account_billing
+#: field:account.billing,message_ids:0
+msgid "Messages"
+msgstr "消息"
+
+#. module: account_billing
+#: field:account.billing.line,move_line_id:0
+msgid "Journal Item"
+msgstr "凭证行"
+
+#. module: account_billing
+#: field:account.billing,reference:0
+msgid "Ref #"
+msgstr "客户发票"
+
+#. module: account_billing
+#: field:account.billing.line,amount:0
+msgid "Amount"
+msgstr "金额"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Total Billing Amount"
+msgstr "总金额"
+
+#. module: account_billing
+#: selection:account.billing,state:0
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Billing Entries"
+msgstr "账单条目"
+
+#. module: account_billing
+#: help:account.billing,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "如果选中的新邮件需要您注意。"
+
+#. module: account_billing
+#: field:account.billing,payment_id:0
+msgid "Payment Ref#"
+msgstr "付款关联单号"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:779
+#, python-format
+msgid "Invalid Action!"
+msgstr "无效的操作 ！"
+
+#. module: account_billing
+#: field:account.billing,comment:0
+msgid "Counterpart Comment"
+msgstr "对应的评论"
+
+#. module: account_billing
+#: field:account.billing.line,account_analytic_id:0
+msgid "Analytic Account"
+msgstr "科目分析"
+
+#. module: account_billing
+#: help:account.billing,message_summary:0
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
+msgstr "持有颤振摘要 (数目消息......)。这份摘要是直接在 html 格式为了看板视图中插入。"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Billed Billing"
+msgstr "已记账账单"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Payment Information"
+msgstr "付款信息"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Paid Amount"
+msgstr "已付的金额"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Select"
+msgstr "选择"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Search Billings"
+msgstr "搜索月结单"
+
+#. module: account_billing
+#: field:account.billing,tax_id:0
+msgid "Tax"
+msgstr "税"
+
+#. module: account_billing
+#: view:account.billing:0 field:account.billing,period_id:0
+msgid "Period"
+msgstr "期间"
+
+#. module: account_billing
+#: field:account.billing,message_follower_ids:0
+msgid "Followers"
+msgstr "关注者"
+
+#. module: account_billing
+#: selection:account.billing.line,type:0
+msgid "Debit"
+msgstr "借方"
+
+#. module: account_billing
+#: help:account.billing,is_multi_currency:0
+msgid ""
+"Fields with internal purpose only that depicts if the billing is a multi "
+"currency one or not"
+msgstr "内部字段用来描述账单是不是多个币种"
+
+#. module: account_billing
+#: field:account.billing,name:0
+msgid "Memo"
+msgstr "备注"
+
+#. module: account_billing
+#: help:account.billing.line,reference:0 help:account.voucher.line,reference:0
+msgid "The partner reference of this invoice."
+msgstr "关联的客户的发票"
+
+#. module: account_billing
+#: view:account.billing:0 selection:account.billing,state:0
+msgid "Billed"
+msgstr "已记帐"
+
+#. module: account_billing
+#: view:account.voucher:0
+msgid "{'search_default_customer': 1, 'billing_id': billing_id}"
+msgstr "{'search_default_customer'： 1，'billing_id'： billing_id}"
+
+#. module: account_billing
+#: field:account.billing,tax_amount:0
+msgid "Tax Amount"
+msgstr "税额"
+
+#. module: account_billing
+#: field:account.billing,line_ids:0
+#: model:ir.model,name:account_billing.model_account_billing_line
+msgid "Billing Lines"
+msgstr "计费行"
+
+#. module: account_billing
+#: field:account.voucher,billing_id:0
+msgid "Billing Ref"
+msgstr "月结单"
+
+#. module: account_billing
+#: selection:account.billing,payment_option:0
+msgid "Reconcile Payment Balance"
+msgstr "核对付款余额"
+
+#. module: account_billing
+#: field:account.billing,payment_option:0
+msgid "Payment Difference"
+msgstr "付款的区别"
+
+#. module: account_billing
+#: model:ir.model,name:account_billing.model_account_voucher_line
+msgid "Voucher Lines"
+msgstr "凭证行"
+
+#. module: account_billing
+#: field:account.billing,currency_id:0
+#: field:account.billing.line,currency_id:0
+msgid "Currency"
+msgstr "币种"
+
+#. module: account_billing
+#: help:account.billing,payment_rate:0
+msgid ""
+"The specific rate that will be used, in this billing, between the selected "
+"currency (in 'Payment Rate Currency' field)  and the billing currency."
+msgstr "特定付薪比率将在这个帐单之间 (在 ' 付款率币种字段中） 的选定的货币与记帐货币中使用。"
+
+#. module: account_billing
+#: help:account.billing,tax_id:0
+msgid "Only for tax excluded from price"
+msgstr "不含税价格"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Billing"
+msgstr "计费"
+
+#. module: account_billing
+#: model:ir.actions.act_window,name:account_billing.action_billing_receipt
+#: model:ir.ui.menu,name:account_billing.menu_action_billing_receipt
+msgid "Customer Billing"
+msgstr "月结单"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:779
+#, python-format
+msgid "Cannot delete billing(s) which are already billed."
+msgstr "不能删除已记帐的月结单。"
+
+#. module: account_billing
+#: view:account.billing:0 selection:account.billing,state:0
+msgid "Draft"
+msgstr "草稿"
+
+#. module: account_billing
+#: view:account.billing:0 field:account.billing,state:0
+msgid "Status"
+msgstr "状态"
+
+#. module: account_billing
+#: field:account.billing.line,billing_id:0
+msgid "billing"
+msgstr "月结单"
+
+#. module: account_billing
+#: field:account.billing,message_is_follower:0
+msgid "Is a Follower"
+msgstr "关注者"
+
+#. module: account_billing
+#: field:account.billing,date:0 field:account.billing.line,date_original:0
+msgid "Date"
+msgstr "日期"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:767
+#, python-format
+msgid "Billing is reset to draft"
+msgstr "月结单变为草稿状态"
+
+#. module: account_billing
+#: model:ir.model,name:account_billing.model_account_voucher
+msgid "Accounting Voucher"
+msgstr "会计凭证"
+
+#. module: account_billing
+#: field:account.billing,paid_amount_in_company_currency:0
+msgid "Paid Amount in Company Currency"
+msgstr "用公司币种表示的已付的金额"
+
+#. module: account_billing
+#: field:account.billing.line,type:0
+msgid "Dr/Cr"
+msgstr "Dr/Cr"
+
+#. module: account_billing
+#: field:account.billing,message_summary:0
+msgid "Summary"
+msgstr "摘要"
+
+#. module: account_billing
+#: field:account.billing,active:0
+msgid "Active"
+msgstr "活动"
+
+#. module: account_billing
+#: help:account.billing,reference:0
+msgid "Transaction reference number."
+msgstr "付款单编号。"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Invoices and outstanding transactions"
+msgstr "发票和未完成的事务"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Receipt"
+msgstr "收据"
+
+#. module: account_billing
+#: field:account.billing,number:0
+msgid "Number"
+msgstr "编号"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Cancel"
+msgstr "取消"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Billing Date"
+msgstr "记帐日期"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Total Allocation"
+msgstr "总额"
+
+#. module: account_billing
+#: help:account.billing,payment_option:0
+msgid ""
+"This field helps you to choose what you want to do with the eventual "
+"difference between the paid amount and the sum of allocated amounts. You can"
+" either choose to keep open this difference on the partner's account, or "
+"reconcile it with the payment(s)"
+msgstr "此字段可帮助您选择您想要最终已付的金额和分配的数额的总和之间的差异。你可以选择保持开放这种差异对合作伙伴的帐户，或调和与主卡"
+
+#. module: account_billing
+#: field:account.billing,billing_amount:0
+msgid "Billing Amount"
+msgstr "记帐金额"
+
+#. module: account_billing
+#: help:account.billing,billing_amount:0
+msgid ""
+"Computed as the difference between the amount stated in the billing and the "
+"sum of allocation on the billing lines."
+msgstr "为在计费和分配的计费的行上的总和中所述的数额之间的差额计算。"
+
+#. module: account_billing
+#: field:account.billing,payment_rate:0
+msgid "Exchange Rate"
+msgstr "汇率"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Payment Method"
+msgstr "付款方法"
+
+#. module: account_billing
+#: field:account.billing.line,name:0
+msgid "Description"
+msgstr "描述"
+
+#. module: account_billing
+#: view:account.billing:0 field:account.billing,journal_id:0
+msgid "Journal"
+msgstr "账簿"
+
+#. module: account_billing
+#: field:account.billing,line_cr_ids:0
+msgid "Credits"
+msgstr "贷方"
+
+#. module: account_billing
+#: field:account.billing.line,amount_original:0
+msgid "Original Amount"
+msgstr "原始金额"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:772
+#, python-format
+msgid "Billing is cancelled."
+msgstr "取消的账单。"
+
+#. module: account_billing
+#: model:ir.model,name:account_billing.model_account_billing
+msgid "Accounting Billing"
+msgstr "会计记帐"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "e.g. Invoice SAJ/0042"
+msgstr "如发票 SAJ/0042"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Customer"
+msgstr "客户"
+
+#. module: account_billing
+#: field:account.billing.line,reference:0
+#: field:account.voucher.line,reference:0
+msgid "Invoice Reference"
+msgstr "相关发票"
+
+#. module: account_billing
+#: field:account.billing,is_multi_currency:0
+msgid "Multi Currency Billing"
+msgstr "多币种月结单"
+
+#. module: account_billing
+#: view:account.billing:0
+msgid "Draft Billing"
+msgstr "月结单草稿"
+
+#. module: account_billing
+#: code:addons\account_billing\account_billing.py:759
+#, python-format
+msgid "Billing is billed."
+msgstr "月结单已记账。"
+
+#. module: account_billing
+#: help:account.billing,message_ids:0
+msgid "Messages and communication history"
+msgstr "消息和通信历史记录"
+
+#. module: account_billing
+#: selection:account.billing.line,type:0
+msgid "Credit"
+msgstr "信贷"
+
+#. module: account_billing
+#: help:account.billing,date:0
+msgid "Effective date for accounting entries"
+msgstr "生效日期为会计分录的"
+
+#. module: account_billing
+#: model:mail.message.subtype,name:account_billing.mt_billing
+msgid "Status Change"
+msgstr "状态更改"
+
+#. module: account_billing
+#: selection:account.billing,payment_option:0
+msgid "Keep Open"
+msgstr "保持开放"
+
+#. module: account_billing
+#: view:account.voucher:0
+msgid "{'billing_id': billing_id}"
+msgstr "{'billing_id'： billing_id}"
+
+#. module: account_billing
+#: field:account.billing.line,untax_amount:0
+msgid "Untax Amount"
+msgstr "Untax 金额"
+
+#. module: account_billing
+#: field:account.billing,partner_id:0 field:account.billing.line,partner_id:0
+msgid "Partner"
+msgstr "合作伙伴"
+
+#. module: account_billing
+#: field:account.billing.line,amount_unreconciled:0
+msgid "Open Balance"
+msgstr "未结余额"
+
+#. module: account_billing
+#: field:account.billing,amount:0
+msgid "Total"
+msgstr "总计"
+
